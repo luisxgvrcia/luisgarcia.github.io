@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  margin-top: 20px;
+
+}
+.media {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+
+</head>
+<body>
+
+<div class="header">
+  <h1>Luis Garcia</h1>
+  <h3></h3>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="index_2gallery.html">Gallery</a>
+  <a href="index_artiststatement.html">Artist Statement</a>
+  <a href="index_contact.html">Contact</a>
+</div>
+
+<div class="row">
+
+  <div class="column">
+    <div class="media">
+      <img src="Bay.jpg"/>
+    </div>
+    <h2>Bay</h2>
+    <p>Simple in its compistion, this landscape photo simply captures the beauty of man made architecture and how it changes the natural landscape.</p>
+  
+  </div>
+  
+  <div class="column">
+    <div class="media">
+      <img src="shadow.jpg"/>
+    </div>
+    <h2>Bystander</h2>
+    <p>A representation of isolation, this photograph defines how people in todays world tend to isolate themselves from the rest of the world.</p>
+  
+</div>
+  
+  <div class="column">
+    <div class="media">
+      <img src="Pier.jpg"/>
+    </div>
+    <h2>Tower Heights</h2>
+    <p>Keeping the theme going with architecture, this photograph continues on the beauty of man made objects and how they become iconic to the cities in which they were erected.</p>
+</div>
+
+  <div class="column">
+    <div class="media">
+      <img src="bart.jpg"/>
+    </div>
+    <h2>Oblivion</h2>
+    <p>Continuing of the theme of isolation, this photo represents how people isolate themselves from the rest of the world, particularly, by focusing on their cell phones.</p>
+  
+  </div>
+  
+  <div class="column">
+    <div class="media">
+      <img src="Cartier.jpg"/>
+    </div>
+    <h2>Cartier</h2>
+    <p>Inspired by the photographer Henri Cartier-Bresson, this photo in an essence the embodiment of capturing the moment.</p>
+  
+</div>
+  
+  <div class="column">
+    <div class="media">
+      <img src="Capitol.jpg"/>
+    </div>
+    <h2>Capital</h2>
+    <p>Taking a different approach on landscape photography, this photograph was taken using the reflection of a puddle to bring an interesting element rather then taking a straight on photo.</p>
+</div>
+
+</div>
+
+</body>
+</html>
