@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  margin-top: 20px;
+
+}
+.media {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+
+</head>
+<body>
+
+<div class="header">
+  <h1>Luis Garcia</h1>
+  <h3></h3>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="index_2gallery">Gallery</a>
+  <a href="index_artiststatement.html">Artist Statement</a>
+  <a href="index_contact.html">Contact</a>
+</div>
+
+<div class="row">
+
+  <div class="column">
+    <div class="media">
+      <video width="420" controls>
+        <source src="apt.mp4" type="video/mp4">
+    </div>
+    <h2>APT</h2>
+    <p>A short video created with after effects, this work was a learning process to better understand how after effects works and how it differs from using other softwares like premiere pro.</p>
+  
+  </div>
+  
+  <div class="column">
+    <div class="media">
+      <video width="420" controls>
+        <source src="Day2.mp4" type="video/mp4">
+      <img src="1.jpg"/>
+    </div>
+    <h2>Day in the Bay</h2>
+    <p>Much like my photography, my video work largely takes reference from the street and urban genre. I shot this video in San Francsico to showcase that the Bay is not just about the tourist areas but about the people, art and monuments that make up the City.</p>
+
+</div>
+
+</body>
+</html>

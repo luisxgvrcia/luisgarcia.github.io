@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  margin-top: 20px;
+
+}
+.media {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+
+</head>
+<body>
+
+<div class="header">
+  <h1>Luis Garcia</h1>
+  <h3></h3>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="index_2gallery">Gallery</a>
+  <a href="index_artiststatement.html">Artist Statement</a>
+  <a href="index_contact.html">Contact</a>
+</div>
+
+<div class="row">
+
+  <div class="column">
+    <div class="media">
+      <img src="c1.jpg"/>
+    </div>
+    <h2>Quetzalcoatl Vessel</h2>
+    <p>Centering around the Aztec serpent God Quetzalcoatl, this vessels represents my cultural background and remembering those who came before us.</p>
+   
+  </div>
+  
+  <div class="column">
+    <div class="media">
+      <img src="c2.jpg"/>
+    </div>
+    <h2>Coffee cup #1</h2>
+    <p>Constructed from the coiling method, this ceramics cup was painted with a high-fire glaze so the person who has this cup in their possession can use it on a daily basis.</p>
+  
+</div>
+  
+  <div class="column">
+    <div class="media">
+      <img src="c3.jpg"/>
+    </div>
+    <h2>Coffee Cup #2</h2>
+    <p>Contructed using the slab method, this ceramics cup, is one of the largest in the series and the only one with an added texture element.</p>
+</div>
+
+  <div class="column">
+    <div class="media">
+      <img src="c4.jpg"/>
+    </div>
+    <h2>Coffee Cup #3</h2>
+    <p>Contructed using the slab method, this cup is the only in the series that was left with unglazed portions.</p>
+  
+  </div>
+  
+  <div class="column">
+    <div class="media">
+      <img src="c5.jpg"/>
+    </div>
+    <h2>Coffee Cup #4</h2>
+    <p>The final cup in the series this cup serves more as a creamer cup as well as a cup to froth milk.</p>
+  
+</div>
+  
+  
+</div>
+
+</div>
+
+</body>
+</html>
